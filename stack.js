@@ -1,30 +1,4 @@
-/*------------------------------------------------------------------------------
- * NAME    : Stack.js
- * PURPOSE : Stack dta structure using java script
- * AUTHOR  : Prasad P. Khandekar
- * CREATED : August 21, 2005 
- *------------------------------------------------------------------------------
- * Copyright (c) 2005. Khan Information Systems. All Rights Reserved
- * The contents of this file are subject to the KIS Public License 1.0
- * (the "License"); you may not use this file except in compliance with the 
- * License. You should have received a copy of the KIS Public License along with 
- * this library; if not, please ask your software vendor to provide one.
- * 
- * YOU AGREE THAT THE PROGRAM IS PROVIDED AS-IS, WITHOUT WARRANTY OF ANY KIND
- * (EITHER EXPRESS OR IMPLIED) INCLUDING, WITHOUT LIMITATION, ANY IMPLIED 
- * WARRANTY OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND ANY 
- * WARRANTY OF NON INFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE FOR
- * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
- * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON 
- * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE 
- * PROGRAM, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
- * See the License for the specific language governing rights and limitations 
- * under the License.
- *-----------------------------------------------------------------------------*/
-// Stack object constructor
+
 function Stack()
 {
     this.arrStack = new Array();
