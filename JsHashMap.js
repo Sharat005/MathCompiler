@@ -1,10 +1,3 @@
-/////////////////////////////////////////////
-/////       Js Object                 //////
-///////////////////////////////////////////
-// Author: NHM TAnveer Hossain Khan (Hasan)
-// http://hasan.we4tech.com
-// mail:admin at we4tech.com
-
 // hashmap internal data object
 JsObject=function(key, value) {
   this._key=key;
