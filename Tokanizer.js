@@ -9,8 +9,7 @@
  *           AVG ABS ACOS ASC ASIN ATAN CDATE CHR COS DATE FIX HEX IIF 
  *           LCASE LEFT LOG MAX MID MIN RIGHT ROUND SIN SQRT TAN UCASE 
  *           , ' "
- * AUTHOR  : Prasad P. Khandekar
- * CREATED : August 19, 2005
+
  *------------------------------------------------------------------------------
  * -3              // Negative 3 - is the first token
  * 3+-2            // Negative 2 - previous token is an operator and next is a digit
@@ -23,26 +22,7 @@
  * ABS(3.4)-2      // Positive 2 - previous token is a closing brace and next is a digit
  * ABS(3.4)- 2     // Positive 2 - previous token is a digit and next is a space
  * ABS(3.4) - 2    // Positive 2 - previous token is a closing brace or space and next is a space
- *------------------------------------------------------------------------------
- * Copyright (c) 2005. Khan Information Systems. All Rights Reserved
- * The contents of this file are subject to the KIS Public License 1.0
- * (the "License"); you may not use this file except in compliance with the 
- * License. You should have received a copy of the KIS Public License along with 
- * this library; if not, please ask your software vendor to provide one.
- * 
- * YOU AGREE THAT THE PROGRAM IS PROVIDED AS-IS, WITHOUT WARRANTY OF ANY KIND
- * (EITHER EXPRESS OR IMPLIED) INCLUDING, WITHOUT LIMITATION, ANY IMPLIED 
- * WARRANTY OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND ANY 
- * WARRANTY OF NON INFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE FOR
- * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
- * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON 
- * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE 
- * PROGRAM, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
- * See the License for the specific language governing rights and limitations 
- * under the License.
+ 
  *-----------------------------------------------------------------------------*/
  var lstAlpha    = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,uv,w,x,y,z";
  var lstDigits   = "0,1,2,3,4,5,6,7,8,9";
